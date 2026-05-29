@@ -1,0 +1,318 @@
+/* :root {
+    --pink: #f8d7da;
+    --gold: #d4af37;
+    --white: #ffffff;
+    --dark: #333333;
+}=========================
+   GENERAL STYLING
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    background-color: #f8d7da;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #7a4e4e;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #b76e79;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+a[href="enquiries.html"] {
+    display: inline-block;
+    background-color: #d4af37;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+a[href="enquiries.html"]:hover {
+    background-color: #b8902d;
+}
+
+/* =========================
+   SERVICES LIST
+========================= */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: white;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 700px;
+    border-left: 5px solid #d4af37;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* =========================
+   FORMS
+========================= */
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #7a4e4e;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #d4af37;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #b8902d;
+}
+
+/* =========================
+   CONTACT PAGE
+========================= */
+
+iframe {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #f8d7da;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #7a4e4e;
+    font-weight: bold;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    section img {
+        width: 100%;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
+/* =========================
+   BODY LAYOUT
+========================= */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9f8;
+    color: #333;
+    line-height: 1.6;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Push footer to bottom */
+main,
+section {
+    flex: 1;
+}
+/* =========================
+   BODY LAYOUT
+========================= */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9f8;
+    color: #333;
+    line-height: 1.6;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Push footer to bottom */
+main,
+section {
+    flex: 1;
+}@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+}s@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
